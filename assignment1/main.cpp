@@ -3,11 +3,12 @@
 using namespace std;
 
 int main(){
+    freopen ("33914_MinaMagdy.txt","w",stdout);
     int n , m;
     cin >> n >> m;
     int g[n][n];
     memset(g ,  0 , sizeof(g));
-    for(int i = 0 ; i < n ; i++){
+    for(int i = 0 ; i < m ; i++){
         int u , v ;
         cin >> u >> v;
         u-- ; v --;
